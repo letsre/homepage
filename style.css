@@ -1,0 +1,92 @@
+html {
+ scroll-behavior: smooth;
+}
+
+body {
+ margin: 0;
+ text-align: center;
+ font-family: Sanchez;
+ text-shadow: 0 0 5px black;
+}
+
+.hero-section {
+ display: flex;
+ background-image: url("img/cris-tagupa-9ZXHUr5aCwM-unsplash.jpg");
+ background-size: cover;
+ width: 100%;
+ height: 100vh;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+}
+
+h1 {
+ background-color: #274160;
+ color: #C0F1F2;
+ font-size: 50px;
+ padding: 10px 20px;
+ border-radius: 10px;
+}
+
+.activities-section{
+ background: #066496;
+ padding-top: 50px;
+ background: #066496;
+ color: #C0F1F2;
+ 
+}
+.activities {
+ display: flex;
+ justify-content: space-around;
+ padding-bottom: 50px;
+
+}
+
+.activity {
+ width: 350px;
+ border: 2px solid wheat;
+ padding: 10px;
+ margin: 20px 0;;
+ border-radius: 20px;
+}
+
+img {
+ width: 300px;
+ height: 300px;
+ border: 2px solid wheat;
+ border-radius: 10px;
+}
+
+h2{
+ font-size: 35px;
+}
+h3 {
+ font-size: 30px;
+}
+h4 {
+ font-size: 20px;
+}
+h5 {
+ font-size: 25px;
+}
+p{
+ font-size: 18px;
+}
+.guide{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ background-color: #274160;
+ width: 600px;
+ height: 300px;
+ border-bottom: 20px solid #C0F1F2;
+ margin: 100px auto;
+ border-radius: 10px;
+ padding: 30px 40px;
+ color: #C0F1F2;
+}
+#tour-guide{
+ width: 250px;
+ height: 250px;
+ margin-right: 20px;
+}
